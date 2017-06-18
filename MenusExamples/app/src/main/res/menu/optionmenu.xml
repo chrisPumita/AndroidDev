@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Agregando Items
+    <item android:id="@+id/opc1"
+        android:icon="@mipmap/home_icon"
+        android:title="@string/opt1"></item>
+    <item android:id="@+id/opc2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/opt2"></item>
+        -->
+    <item
+        android:id="@+id/MenuOP1"
+        android:title="Opción 1"
+        android:icon="@android:drawable/ic_menu_preferences">
+    </item>
+    <item
+        android:id="@+id/MenuOP2"
+        android:title="Opción 2"
+        android:icon="@android:drawable/ic_menu_compass">
+    </item>
+    <item
+        android:id="@+id/MenuOP3"
+        android:title="Agenda"
+        android:icon="@android:drawable/ic_menu_agenda">
+            <menu>
+                <item android:id="@+id/SubmenuOPC1"
+                    android:title="Opc 3.1">
+                </item>
+                <item android:id="@+id/SubmenuOPC2"
+                    android:title="Opc 3.2">
+                </item>
+            </menu>
+    </item>
+</menu>

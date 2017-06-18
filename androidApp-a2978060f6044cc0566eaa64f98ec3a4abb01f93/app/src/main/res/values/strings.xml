@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DIALOGOS</string>
+    <string name="dialog_mss">¿Se va a eliminar toda tu música?\n¿Seguro que quieres continuar?</string>
+    <string name="confirm">Si</string>
+    <string name="cancel">Cancelar</string>
+    <string name="deleteSucc">Se ha eliminado todas tus canciones</string>
+    <string name="deleteFail">No se ha podido eliminar tus canciones</string>
+    <string name="neutral_BTN">Boton x</string>
+    <string name="imgMss">Si funciona el click en la imagen :D</string>
+</resources>

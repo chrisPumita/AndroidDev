@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/avatar"
+        android:id="@+id/imageView" />
+    <TableLayout
+        android:stretchColumns="*"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:gravity="center"
+            android:padding="18dp"
+            android:layout_width="match_parent" android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:layout_gravity="center">
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adrian Zarza"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55 34 56 78 89"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/phonereceiver"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <ImageView
+                android:src="@drawable/closeenvelope"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            android:padding="18dp"
+            android:layout_width="match_parent" android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:layout_gravity="center">
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="David González"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55 34 56 78 89"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/phonereceiver"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <ImageView
+                android:src="@drawable/closeenvelope"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            android:padding="18dp"
+            android:layout_width="match_parent" android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:layout_gravity="center">
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aquiles Rodarte"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55 34 56 78 89"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/phonereceiver"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <ImageView
+                android:src="@drawable/closeenvelope"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

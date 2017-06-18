@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/fondo"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/cafe"
+            />
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableRow android:gravity="left">
+                    <TableLayout>
+                        <LinearLayout android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Cafe Basilico"
+                                android:textSize="30dp"
+                                android:padding="5dp"
+                                android:textColor="@color/textColor"/>
+                        </LinearLayout>
+                    </TableLayout>
+                    <TableLayout android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@mipmap/ic_launcher_round"/>
+                    </TableLayout>
+                    <TableLayout android:layout_gravity="center">
+                        <TextView
+                            android:text="250 ft"
+                            android:textSize="15dp"
+                            android:textColor="@color/texColorBlack"/>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow android:padding="10dp">
+
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Indicator"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:rating="4.7"
+                        android:layout_width="wrap_content" />
+                    <TextView
+                        android:text="4.7(51)"
+                        android:textSize="12dp"/>
+                </TableRow>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/texColorBlack"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$ Italian Cafe"/>
+                    <TextView
+                        android:textColor="@color/textColor"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Small plates, salads AND anditches in an infimate setting with 12 inoor seats patio seating"/>
+                </LinearLayout>
+                <TableRow>
+                        <TextView
+                            android:padding="10dp"
+                            android:textSize="20dp"
+                            android:textColor="@color/texColorBlack"
+                            android:text="Tonigth's availabity"/>
+                </TableRow>
+                <LinearLayout android:orientation="horizontal">
+                    <ImageView
+                        android:src="@mipmap/ic_launcher_round"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="5:30 PM"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="7:30 PM" />
+                    <Button
+                        android:text="9:00 PM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:focusable="true"/>
+                </LinearLayout>
+                <TableRow>
+                    <TextView
+                        android:linksClickable="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/linkColor"
+                        android:text="@string/Reserva"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

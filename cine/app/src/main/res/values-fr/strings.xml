@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cineteca</string>
+
+    <string name="title1">Sous le sable</string>
+    <string name="description1">Danemark, mai 1945. Quelques jours après la fin de la Seconde Guerre mondiale, un groupe de prisonniers de guerre allemands sont contraints de faire une tâche mortelle désarme deux millions ...</string>
+    <string name="date1">Dimanche 18 Juin, 2017</string>
+
+    <string name="title2">Ballerine</string>
+    <string name="description2">Félicie, un jeune orphelin britannique, échappe à son orphelinat avec son meilleur ami Victor aller à Paris et de réaliser son rêve: devenir le premier ...</string>
+    <string name="date2">Dimanche 18 Juin, 2017</string>
+
+    <string name="title3">Graduación</string>
+    <string name="description3">Romeo, un médecin avec un mariage raté, est le père d\'un étudiant qui doit faire leurs examens avec la promesse d\'obtenir une bourse d\'études en Angleterre s\'il obtient une bonne</string>
+    <string name="date3">Dimanche 18 Juin, 2017</string>
+
+    <string name="title4">La chica desconocida</string>
+    <string name="description4">Jenny, un jeune médecin de famille se sent coupable de ne pas avoir ouvert la porte à son bureau une jeune fille d\'origine africaine qui est retrouvé mort peu après. sachant que</string>
+    <string name="date4">Dimanche 18 Juin, 2017</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#be9a26</color>
+    <color name="fondoLoginColor">#3535c7</color>
+    <color name="botonColor">#2effffff</color>
+
+    <!-- PROPIEDADES PARA SPOTIFY-->
+    <color name="fondoSpotify">#e2181717</color>
+    <color name="textoSpotify">#8c8c8c</color>
+</resources>

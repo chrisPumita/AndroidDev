@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cineteca</string>
+
+    <string name="title1">Bajo la arena</string>
+    <string name="description1">Dinamarca, mayo de 1945. Pocos días después del fin de la Segunda Guerra Mundial, un grupo de prisioneros de guerra alemanes son obligados a realizar una tarea mortal: desarmar las dos millones…</string>
+    <string name="date1">Domingo 18 de junio de 2017</string>
+
+    <string name="title2">Bailarina</string>
+    <string name="description2">Félicie, una joven huérfana británica, escapa de su orfanato junto a su mejor amigo Víctor para dirigirse a París y cumplir su sueño: convertirse en la primera…</string>
+    <string name="date2">Domingo 18 de junio de 2017</string>
+
+    <string name="title3">Graduación</string>
+    <string name="description3">Romeo, un médico con un matrimonio fallido, es padre de una estudiante que debe realizar sus exámenes finales con la promesa de obtener una beca universitaria en Inglaterra si consigue buenas</string>
+    <string name="date3">Domingo 18 de junio de 2017</string>
+
+    <string name="title4">La chica desconocida</string>
+    <string name="description4">Jenny, una joven médico de familia, se siente culpable por no haber abierto la puerta de su consultorio a una chica de origen africano a la que encuentran muerta poco después. Al saber que</string>
+    <string name="date4">Domingo 18 de junio de 2017</string>
+</resources>

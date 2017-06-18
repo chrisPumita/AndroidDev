@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Disenio</string>
+    <string name="proteco">PROTECO</string>
+    <string name="login">Login</string>
+    <string name="contraseniaOlvidada">¿Olvidaste tu contraseña?</string>
+    <string name="user">Username</string>
+    <string name="passwprd">Password</string>
+    <string name="textos">TEXTO</string>
+
+    <!-- PROPIEDADES PARA SPOTIFY -->
+    <string name="tittleSpotify">REPRODUCIENDO DESDE ARTISTA</string>
+    <string name="dispostivosSpotify">Dispositivos disponibles</string>
+</resources>

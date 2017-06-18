@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cineteca</string>
+
+    <string name="title1">Under the sand</string>
+    <string name="description1">Denmark, May 1945. A few days after the end of World War II, a group of German prisoners of war are forced to perform a deadly task: to disarm the two million…</string>
+    <string name="date1">Sunday 18 June 2017</string>
+
+    <string name="title2">Ballerina</string>
+    <string name="description2">Félicie, a young British orphan, escapes from her orphanage with her best friend Victor to go to Paris and fulfill her dream: to become the first</string>
+    <string name="date2">Sunday 18 June 2017</string>
+
+    <string name="title3">Graduation</string>
+    <string name="description3">Romeo, a doctor with a failed marriage, is the father of a student who must complete his final exams with the promise of a university scholarship in England if he gets good</string>
+    <string name="date3">Sunday 18 June 2017</string>
+
+    <string name="title4">The Unknown Girl</string>
+    <string name="description4">Jenny, a young family doctor, feels guilty for not opening the door of her office to a girl of African origin whom they find dead soon after. To know that</string>
+    <string name="date4">Sunday 18 June 2017</string>
+</resources>

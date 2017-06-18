@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Ejemplo dialogo"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:background="#a21b8964"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejemplo de Dialogo Simple"
+            android:background="#0d47a1"
+            android:layout_margin="10dp"
+            android:id="@+id/simple_btn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otro Simple"
+            android:background="#8e24aa"
+            android:layout_margin="10dp"
+            android:id="@+id/simple2_btn"
+            android:layout_weight="17.42" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity="center"
+        android:id="@+id/img1"/>
+</LinearLayout>
