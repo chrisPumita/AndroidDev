@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="16dp">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@drawable/tablero"
+            android:stretchColumns="*">
+            <!--StechColums todas se van a ajustar al contenido-->
+            <TextView
+                android:text="@string/app_name"
+                android:layout_gravity="center"
+                android:textSize="40sp"
+                android:textColor="#ededed"/>
+            <TableRow
+                android:layout_weight="1"
+                android:layout_margin="0dp">
+                <ImageButton android:id="@+id/F1"
+                    style="@style/ficha"/>
+                <ImageButton android:id="@+id/F2"
+                    style="@style/ficha"/>
+                <ImageButton android:id="@+id/F3"
+                    style="@style/ficha"/>
+            </TableRow>
+            <TableRow
+                android:layout_weight="1"
+                android:layout_margin="0dp">
+                <ImageButton android:id="@+id/F4"
+                    style="@style/ficha"/>
+                <ImageButton android:id="@+id/F5"
+                    style="@style/ficha"/>
+                <ImageButton android:id="@+id/F6"
+                    style="@style/ficha"/>
+            </TableRow>
+            <TableRow
+                android:layout_weight="1"
+                android:layout_margin="0dp">
+                <ImageButton android:id="@+id/F7"
+                    style="@style/ficha"/>
+                <ImageButton android:id="@+id/F8"
+                    style="@style/ficha"/>
+                <ImageButton android:id="@+id/F9"
+                    style="@style/ficha"/>
+            </TableRow>
+
+            <TextView
+                android:text="enameUser"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#ededed"/>
+        </TableLayout>
+
+</RelativeLayout>

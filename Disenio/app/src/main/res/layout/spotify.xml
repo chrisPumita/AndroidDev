@@ -25,7 +25,7 @@
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@mipmap/minimizarSpotify"
+                        android:src="@mipmap/min"
                         android:layout_gravity="top"/>
                 </TableLayout>
 
@@ -60,7 +60,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/listSpotify" />
+                        android:src="@mipmap/list" />
                 </TableLayout>
             </LinearLayout>
         </TableRow>
@@ -70,7 +70,7 @@
             <ImageView
                 android:layout_width="310dp"
                 android:layout_height="310dp"
-                android:src="@mipmap/demonAlbum" />
+                android:src="@drawable/demonalbum" />
         </TableRow>
 
         <TableRow android:gravity="center">
