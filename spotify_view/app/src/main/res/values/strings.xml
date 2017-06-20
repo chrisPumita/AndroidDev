@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">spotify_view</string>
+    <string name="tittleSpotify">REPRODUCIENDO DESDE ARTISTA</string>
+    <string name="dispostivosSpotify">Dispositivos disponibles</string>
 </resources>
