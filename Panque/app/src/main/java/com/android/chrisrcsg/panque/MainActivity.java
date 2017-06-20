@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         sigue = (Button)findViewById(R.id.btn_sigue);
         sigue.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -36,4 +37,6 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
 
     }
+
+
 }
