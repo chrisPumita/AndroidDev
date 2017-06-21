@@ -1,5 +1,7 @@
 package com.android.chrisrcsg.databaseexample.models;
 
+import com.android.chrisrcsg.databaseexample.app.MyAplication;
+
 import java.util.Date;
 
 import io.realm.RealmList;
@@ -26,7 +28,8 @@ public class Board extends RealmObject {
 
     //constructor
     public Board(String title){
-        this.id = 0;
+        //Cada que se crea un nuevo objeto se manda a la clase que incrementa
+        this.id = MyAplication.BoardID.getAndIncrement();
         this.title = title;
         this.date = new Date();
         this.notas = new RealmList<Note>();
@@ -49,8 +52,7 @@ public class Board extends RealmObject {
         return date;
     }
 
-
-    public RealmList<Note> getNotas() {
+    public RealmList<Note> getNotes() {
         return notas;
     }
 

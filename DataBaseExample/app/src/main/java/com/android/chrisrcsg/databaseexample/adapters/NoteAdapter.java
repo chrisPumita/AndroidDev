@@ -1,4 +1,5 @@
-package com.proteco.zarza.board.adapters;
+package com.android.chrisrcsg.databaseexample.adapters;
+
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.proteco.zarza.board.R;
-import com.proteco.zarza.board.models.Note;
+import com.android.chrisrcsg.databaseexample.R;
+import com.android.chrisrcsg.databaseexample.models.Note;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -66,7 +67,7 @@ public class NoteAdapter extends BaseAdapter {
 
         vh.description.setText(note.getDescription());
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
-        String date = df.format(note.getCreatedAt());
+        String date = df.format(note.getDate());
         vh.createdAt.setText(date);
 
         return convertView;

@@ -1,5 +1,7 @@
 package com.android.chrisrcsg.databaseexample.models;
 
+import com.android.chrisrcsg.databaseexample.app.MyAplication;
+
 import java.util.Date;
 
 import io.realm.RealmObject;
@@ -21,7 +23,7 @@ public class Note extends RealmObject {
     public Note(){}
 
     public Note(String description){
-        this.id = 0;
+        this.id = MyAplication.NoteID.getAndIncrement();
         this.description = description;
         this.date = new Date();
     }
@@ -41,5 +43,6 @@ public class Note extends RealmObject {
     public Date getDate() {
         return date;
     }
+
 
 }
