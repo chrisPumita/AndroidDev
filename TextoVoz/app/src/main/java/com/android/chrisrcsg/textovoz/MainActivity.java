@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
     public  void hablar(String str){
         textToSpeech.speak(str,TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(0.0f);
+        textToSpeech.setSpeechRate(0.5f);
     }
 
     @Override
