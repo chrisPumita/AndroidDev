@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 android.support.v4.app.NotificationCompat.Builder notiBuilder =
                         new NotificationCompat.Builder(MainActivity.this)
                                 .setSmallIcon(android.R.drawable.stat_notify_missed_call)
-                                .setContentTitle("Llamada Perdida")
-                                .setContentText("Tienes una llamada perdida")
+                                .setContentTitle("Ya valio, tienes Perdida")
+                                .setContentText("Ver la llamda perdida")
                                 .setTicker("LLamada Perdida");
                 Intent notIntent = new Intent(MainActivity.this,MainActivity.class);
                 PendingIntent i = PendingIntent.getActivity(MainActivity.this,0,notIntent,0);
